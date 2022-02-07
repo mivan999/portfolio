@@ -1,0 +1,20 @@
+.project{
+    width: 250px;
+    background-color: #b9d7e0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.descriptions{
+
+}
+.icon{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: #d01b1b;
+}
+.main{
+    background-color: #f8ecec;
+}
