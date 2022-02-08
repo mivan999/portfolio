@@ -1,6 +1,8 @@
 .projectsBlock{
     background-color: #eceabb;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .projects{
     display: flex;

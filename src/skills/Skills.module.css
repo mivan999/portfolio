@@ -1,6 +1,8 @@
 .skillsBlock{
     background-color: #ecd0d0;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .skills{
     display: flex;
