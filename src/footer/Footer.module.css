@@ -1,0 +1,36 @@
+.footerBlock {
+    background-color: #294f50;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+/*flex-direction: column;*/
+}
+
+.footerContainer {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer {
+
+    display: flex;
+    height: 100px;
+    width: 300px;
+    justify-content: space-between;
+    background-color: #f8ecec;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    /*align-items: flex-start;*/
+    /*justify-content: end;*/
+    flex-direction: column;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
