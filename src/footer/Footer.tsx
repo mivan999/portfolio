@@ -11,9 +11,9 @@ const Footer = () => {
                 className={`${styleContainer.container} ${styles.footerContainer}`}>
                 <h2> Footer</h2>
                 <div className={styles.footer}>
-                  <div>  footer footer footer</div>
-                  <div>  footer footer footer</div>
-                  <div>  footer footer footer</div>
+                  <div className={styles.footerItem}>  footer footer footer</div>
+                  <div className={styles.footerItem}>  footer footer footer</div>
+                  <div className={styles.footerItem}>  footer footer footer</div>
 
                 </div>
                 <div> Все права защищены 2022 </div>

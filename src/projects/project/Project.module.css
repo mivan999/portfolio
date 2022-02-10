@@ -9,10 +9,14 @@
 .descriptions{
 
 }
-.icon{
+.imgContainer{
     display: flex;
-    height: 60px;
-    width: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    /*float: none;*/
+    /*overflow: auto;*/
     background-color: #d01b1b;
 }
 .main{
