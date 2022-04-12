@@ -4,14 +4,17 @@ import styleContainer from './../common/style/Container.module.css'
 
 const Nav = () => {
     return (
-        <div className={styleContainer.container}>
+        <div className={styleContainer.containerNav}>
             <div className={`${style.nav} `}>
-                <a href="/">Главная</a>
-                <a href="/">Скилы</a>
-                <a href="/">Проекты</a>
-                <a href="/">Контакты</a>
+                <a href="/">Home</a>
+                <a href="/">Skills</a>
+                <a href="/">Portfolio</a>
+                <a href="/">Contact</a>
+                <div className={style.svg}>
+
+                </div>
             </div>
-        </div>
+         </div>
     );
 };
 

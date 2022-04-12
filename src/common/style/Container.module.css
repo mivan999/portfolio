@@ -1,11 +1,22 @@
 .container{
     width: 80%;
-    height: 80%;
+    height: 90%;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /*border: 1px solid #a19999;*/
+    flex-wrap: wrap;
+}
+.containerNav{
+    width: 80%;
+    height: 100%;
 
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border: 1px solid;
+    justify-content: end;
+    /*border: 1px solid #a19999;*/
     flex-wrap: wrap;
 }
