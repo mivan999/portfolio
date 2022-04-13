@@ -1,0 +1,63 @@
+@import './src/common/style/sass/variable.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainBlock {
+  background-color: $bgColor;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+
+  .text {
+    width: 500px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Oxygen;
+    background-color: #1d1d1d;
+
+    .main {
+      font-size: 70px;
+      padding-left: 10px;
+
+      &:hover {
+        transition: all 0.3s ease-out;
+        color: #08fdd8;
+      }
+    }
+
+    h2 {
+      transition: all 0.3s ease-out;
+      font-size: 70px;
+      padding-left: 10px;
+      font-family: 'Coolvetica', sans-serif;
+    }
+
+    p {
+      color: #8d8d8d;
+      font-family: inherit;
+      font-size: 23px;
+      padding-left: 10px;
+    }
+
+    .code {
+      color: #515151;
+      font-family: 'La Belle Aurore', sans-serif;
+      font-size: 13px;
+    }
+  }
+
+  .photo {
+    background-color: #dde8f1;
+    width: 300px;
+  }
+    
+}
+
+
+
+
+

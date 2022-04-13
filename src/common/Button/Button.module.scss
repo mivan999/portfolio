@@ -1,0 +1,12 @@
+@import "./src/common/style/sass/variable";
+.Btn {
+ display: flex;
+ justify-content: center;
+ border: 1px solid $bgBtn;
+ width: 200px;
+ &:hover{
+  background: $bgBtn;
+  transition: 0.3s ease-out all;
+  color: #1d1d1d;
+ }
+}
